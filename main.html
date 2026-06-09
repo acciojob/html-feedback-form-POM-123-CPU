@@ -12,7 +12,7 @@
 		<h1>Feedback Form</h1>
 		<div>
 		<label for="name">Name</label>
-		<input type="text" id="name" name="name" min="3" max="50" required>
+		<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
 			</div>
 		<div>
 			<label for="portfolio">Portfolio</label>
@@ -20,14 +20,14 @@
 		</div>
 		<div>
 			<label for="favColor">Favorite Color</label>
-			<input type="color" id="favColor" name="Favorite Color">
+			<input type="color" id="favColor" >
 		</div>
 		<div>
 			<label for="likeness">Likeness</label>
-			<input type="range" id="likeness" name="likeness" min="1" max="100">
+			<input type="range" id="likeness" min="1" max="100">
 		</div>
 		
-		<button>Submit</button>
+		<input type="submit" value="Submit">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
